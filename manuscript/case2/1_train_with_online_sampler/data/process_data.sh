@@ -5,7 +5,7 @@
 wget https://zenodo.org/record/2214970/files/chromatin_profiles.tar.gz
 tar -xzvf chromatin_profiles.tar.gz
 
-python process_chromatin_profiles.py chromatin_profiles/deepsea__919_features_.txt \
+python process_chromatin_profiles_withPeakHeights.py chromatin_profiles/deepsea__919_features_.txt \
                                      chromatin_profiles/ENCODE_DNase/ \
                                      chromatin_profiles/ENCODE_TF/ \
                                      chromatin_profiles/Roadmap_Epigenomics/ \
